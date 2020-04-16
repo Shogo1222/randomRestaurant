@@ -13,4 +13,13 @@
 //= require rails-ujs
 //= require activestorage
 //= require turbolinks
+//= require jquery
+//= require jquery_ujs
 //= require_tree .
+
+mport Vue from 'vue'
+import Element from 'element-ui'
+import '../element-variables.scss'
+import locale from 'element-ui/lib/locale/lang/ja'
+
+Vue.use(Element, { locale })
